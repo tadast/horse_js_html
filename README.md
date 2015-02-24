@@ -1,12 +1,15 @@
-# HTML canvas boostrap
+## Horse JS
 
-Every time I want to try something HTML5ish quickly I waste a few minutes setting up html/css/js files.
-So here's a quick template I use for client side experiments.
+A small code challenge to implement the below image in HTML
 
-# Usage
+![](https://s3.amazonaws.com/f.cl.ly/items/2l0c2F1J1f0D3h100a1f/horse.png)
 
-Go to Downloads and download [the latest version of this repo as an archive](https://github.com/tadast/html_canvas_bootstrap/archive/master.zip).
+###
 
-# Handy Tools
+Testing locally:
 
-run `./coffee_watch` to automatically compile coffee to js when you save files. Edit it to add more paths if needed
+```
+ruby -rwebrick -e's=WEBrick::HTTPServer.new(:Port => 3344, :DocumentRoot => Dir.pwd).start'
+```
+
+visit http://localhost:3344
