@@ -13,3 +13,5 @@ ruby -rwebrick -e's=WEBrick::HTTPServer.new(:Port => 3344, :DocumentRoot => Dir.
 ```
 
 visit http://localhost:3344
+
+[On the web](https://tadast.github.io/horse_js_html/)
