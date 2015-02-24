@@ -1,4 +1,44 @@
-*{
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+  background-color: #f7f7f7;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.tweet{
+  width: 590px;
+  margin: 20px auto;
+  padding: 13px 15px 15px;
+  border-top: 1px solid #E1E8ED;
+  border-bottom: 1px solid #E1E8ED;
+  line-height: 1.3em;
+}
+.tweet .avatar-image{
+  width: 64px;
+  height: 64px;
+  float: left;
+  border-radius: 5px;
+}
+.tweet .timestamp{
+  float: right;
+}
+.tweet .content{
+  float: left;
+  padding-left: 13px;
+  max-width: 465px;
+}
+.tweet .username{
+  font-weight: bold;
+}
+.tweet-text{
   margin: 0;
-  padding: 0;
+}
+.tweet .timestamp{
+  color: #8899A6;
+}
+.tweet a{
+  text-decoration: none;
+  color: #838d98;
 }
